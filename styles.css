@@ -4,8 +4,6 @@ body{
     padding-right:30px;
     background-size: 100% 100%;
     background-color: rgb(17, 56, 54);
-    background-attachment:fixed;
-    background-repeat: no-repeat;
 }
 #cap{
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
