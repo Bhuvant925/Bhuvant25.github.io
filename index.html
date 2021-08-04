@@ -8,23 +8,23 @@
     <title>Time Table</title>
 </head>
 <body>
-    <div>
+    <div class="top">
         <table id="t1">
             <caption id="capt">Time Table</caption>
-            <tr id="row">
-                <th id="col">Day</th>
-                <th id="col">8:00-9:00</th>
-                <th id="col">9:00-10:00</th>
-                <th id="col">10:00-11:00</th>
-                <th id="col">11:00-12:00</th>
-                <th id="col">12:00-13:00</th>
-                <th id="col">Break</th>
-                <th id="col">2:00-3:00</th>
-                <th id="col">3:00-4:00</th>
-                <th id="col">4:00-5:00</th>
+            <tr class="row">
+                <th class="main_col" scope="col">Day</th>
+                <th class="main_col" scope="col">8:00-9:00</th>
+                <th class="main_col" scope="col">9:00-10:00</th>
+                <th class="main_col" scope="col">10:00-11:00</th>
+                <th class="main_col" scope="col">11:00-12:00</th>
+                <th class="main_col" scope="col">12:00-13:00</th>
+                <th class="main_col" scope="col">Break</th>
+                <th class="main_col" scope="col">2:00-3:00</th>
+                <th class="main_col" scope="col">3:00-4:00</th>
+                <th class="main_col" scope="col">4:00-5:00</th>
             </tr>
-            <tr id="row">
-                <th id="day">Monday</td>
+            <tr class="row">
+                <th class="day" scope="row">Monday</td>
                 <td></td>
                 <td></td>
                 <td id="NFT"><a target="_blank" href="https://vnit.webex.com/vnit/j.php?MTID=m91f1de7bf794a782a663c1fcda69678e">NFT</a></td>
@@ -34,8 +34,8 @@
                 <td id="IWP">IWP</td>
                 <td colspan="2" id="TOC"><a target="_blank" href="https://vnit.webex.com/vnit/j.php?MTID=mf1577801af6c96be54b8aa865a9d97ae">TOC</a></td>
             </tr>
-            <tr id="row">
-                <th id="day">Tuesday</th>
+            <tr class="row">
+                <th class="day" scope="row">Tuesday</th>
                 <td></td>
                 <td></td>
                 <td><a target="_blank">IWP</a></td>
@@ -45,8 +45,9 @@
                 <td></td>
                 <td colspan="2"><a target="_blank" href="https://vnit.webex.com/vnit/j.php?MTID=m6db62811cf9dd71cd6cf316e89462f51">TOC</a></td>
             </tr>
-            <tr id="row">
-                <th id="day">Wednesday</th>
+            <tr class="row">
+                <th class="day" scope="row">Wednesday</th>
+                <td></td>
                 <td></td>
                 <td><a target="_blank" href="https://vnit.webex.com/vnit/j.php?MTID=md998dfed9f661fc66a620205b70a3ee9">OS</a></td>
                 <td><a target="_blank" href="https://vnit.webex.com/vnit/j.php?MTID=m536b1f227f62c8c3df84f3723b59cc9e">NFT</a></td>
@@ -55,10 +56,9 @@
                 <td></td>
                 <td></td>
                 <td></td>
-                <td></td>
             </tr>
-            <tr id="row">
-                <th id="day">Thursday</th>
+            <tr class="row">
+                <th class="day" scope="row">Thursday</th>
                 <td colspan="2"><a target="_blank" href="https://vnit.webex.com/vnit/j.php?MTID=me594883c0f34829bbcd4ab6df03b5d85">DAA</a></td>
                 <td></td>
                 <td><a target="_blank">IWP</a></td>
@@ -68,8 +68,8 @@
                 <td></td>
                 <td><a target="_blank">SL lab</a></td>
             </tr>
-            <tr id="row">
-                <th id="day">Friday</th>
+            <tr class="row">
+                <th class="day" scope="row">Friday</th>
                 <td></td>
                 <td></td>
                 <td></td>
@@ -79,8 +79,8 @@
                 <td colspan="2"><a target="_blank" href="https://vnit.webex.com/vnit/j.php?MTID=m6f2bc09fd722a61f51286baec78d6558">DAA</a></td>
                 <td></td>
             </tr>
-            <tr id="row">
-                <th id="day">Saturday</th>
+            <tr class="row">
+                <th class="day" scope="row">Saturday</th>
                 <td></td>
                 <td></td>
                 <td ><a target="_blank">SL(Theory)</a></td>
@@ -92,5 +92,25 @@
             </tr>
         </table>
     </div>
+    <br>
+    <div >
+        <div class="heading">
+            <h3>To Do</h3>
+        </div>
+        <div class="heading2">
+            <h3>Submission date</h3>
+        </div>
+    </div>
+    <br>
+    <div>
+        <div class="todo">
+            <input type="checkbox" id="SL"class="box">
+            <label for="SL" class="label">SL Assignment</label><br>
+        </div>
+        <div class="date">
+            <h4 >16-08-2021</h4>
+        </div>
+    </div>
+    
 </body>
 </html>
