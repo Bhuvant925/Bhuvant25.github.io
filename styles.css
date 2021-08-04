@@ -1,19 +1,22 @@
 body{
     color:white;
     margin:20px;
-    padding-right:30px;
     background-size: 100% 100%;
-    background-color: rgb(17, 56, 54);
+    background-color: rgb(19, 101, 104);
 }
-#cap{
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    font-size: medium;
+.top{
+    display:inline-flex;
+}
+#capt{
+    font-family:'Arial Narrow Bold', sans-serif;
+    color:rgb(255, 238, 0);
+    font-size:large;
 }
 table{
-    margin:20px;
     padding-right:20px;
 }
 table,th,td{
+    font-family: 'Segoe UI', Tahoma, Verdana, sans-serif;
     border: 1px solid white;
     background-color: rgb(0, 0, 0);
     border-collapse: collapse;
@@ -26,8 +29,10 @@ table,th,td{
 }
 th{
     color:black;
+    font-family:cursive;
+    font-size:large;
     text-align:left;
-    background-color: rgb(6, 163, 150);
+    background-color: rgb(199, 134, 60);
 }
 td,a{
     color:rgb(255, 255, 255);
@@ -37,7 +42,7 @@ td,a{
     width:100%;
 }
 
-#row a{
+.row a{
     padding:10px;
     text-decoration: none;
     color:rgb(255, 255, 255);
@@ -45,5 +50,64 @@ td,a{
     padding:2px;
 }
 a:hover{
+    background-color: rgba(125, 231, 235, 0.808);
+    color:black;
+}
+.heading{
+    display:inline-block;
     background-color: black;
+    padding: 2px 5px 2px 5px;
+    margin:10px 50px 5px 15px;
+    border-radius: 10px;
+}
+.heading2{
+    display:inline-flex;
+    background-color: black;
+    padding: 2px 5px 2px 5px;
+    margin:10px 50px 5px 100px;
+    border-radius: 10px;
+}
+.date{
+    display:inline-flex;
+    background-color: rgb(238, 10, 10);
+    padding: 1px 1px 2px 5px;
+    margin:5px 50px 5px 100px;
+    border-radius: 10px;
+}
+h3{
+    margin:5px;
+    padding:2px;
+}
+h4{
+    color:rgb(255, 255, 255);
+    margin:5px;
+    padding:5px;
+}
+.todo{
+    background-color: rgb(0, 0, 0);
+    padding:5px 30px 5px 5px;
+    margin:10px 50px 5px 15px;
+    border: 5px;
+    border-radius: 10px;
+    display:inline-flex;
+}
+h3{
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color:rgb(235, 222, 50);
+    font-size:xx-large;
+    font-weight: bolder;
+}
+.todo input.box{
+    width:20px;
+    height:20px;
+}
+.box{
+    padding: 5px 5px 5px 5px;
+    display:inline-flex;
+}
+.label{
+    padding:5px;
+    font-family:sans-serif;
+    font-size:large;
+    color:rgb(16, 230, 158);
 }
